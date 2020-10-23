@@ -1,0 +1,90 @@
+
+.home {
+	padding-top: 40px;
+	width: 75%;
+	margin-bottom: 50px;
+}
+
+.col {
+	margin: 5px 0;
+	padding: 0 10px;
+	float: left;
+	box-sizing: border-box;
+}
+
+.col.x-100 {
+	width: 100%;
+}
+.col.x-50 {
+	width: 50%;
+}
+
+.input {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	line-height: 1.42857143;
+	background-color: #FFF;
+	transition: all 0.5s;
+}
+
+.input:focus, .input:hover {
+	border-color: #66afe9;
+	outline: 0;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+form table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.btnForm{
+	background: rgba(0, 0, 0, 0.2);
+	color: #FFF;
+	text-transform: uppercase;
+	border: 0;
+	position: fixed;
+	z-index:10;
+	padding: 10px;
+	top: 25%;
+	right: 3%;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 1s;
+}
+.btnForm:hover {
+  background: #2dc997;
+  color: #fff;
+}
+
+.button {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 13px;
+	margin: 10px 0;
+	border: 0;
+	cursor: pointer;
+	color: #FFF;
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	transition: all 0.5s;
+}
+
+.button:hover {
+  background: #2dc997;
+}
+
+@media (max-width: 761px) {
+	.home { width:80%; }
+}
+@media (max-width: 461px) {
+	.home { width:90%; }
+}
+@media (max-width: 350px) {
+	.home { width:100%; }
+}
